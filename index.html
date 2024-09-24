@@ -77,6 +77,34 @@
         background-size: cover;
         background-position: center;
       }
+      .wl:hover {
+        border: 2px solid black;
+      }
+      .story {
+        background-color: #ffffff;
+      }
+      .img-box-3 {
+        height: 630px;
+        background-image: url("img/b4.png");
+        background-size: cover;
+        background-position: center;
+      }
+      .banner {
+        height: 300px;
+        background-color: #272728;
+      }
+      .bim {
+        height: 300px;
+        background-image: url("img/be.png");
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+      .footer {
+        height: 100px;
+        background-color: #ffffff;
+        line-height: 100px;
+      }
     </style>
   </head>
   <body>
@@ -124,16 +152,16 @@
       <div class="row m-0">
         <div class="col-2 p-4 d-flex justify-content-center align-items-center">
           <nav class="nav flex-column">
-            <a class="nav-link active" aria-current="page" href="#"
+            <a class="nav-link active wl" aria-current="page" href="#"
               ><div class="w-boxl w-1"></div
             ></a>
-            <a class="nav-link" href="#">
+            <a class="nav-link wl" href="#">
               <div class="w-boxl w-2"></div>
             </a>
-            <a class="nav-link" href="#">
+            <a class="nav-link wl" href="#">
               <div class="w-boxl w-3"></div>
             </a>
-            <a class="nav-link" href="#">
+            <a class="nav-link wl" href="#">
               <div class="w-boxl w-4"></div>
             </a>
           </nav>
@@ -220,6 +248,73 @@
           </button>
         </div>
       </div>
+    </div>
+    <div class="container story p-0">
+      <div class="row m-0 h-100">
+        <div class="col-6 p-4 d-flex justify-content-center align-items-center">
+          <div class="te p-4">
+            <p>THE STORY</p>
+            <h1>
+              BIGGER, BETTER <br />
+              LOUDER
+            </h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+              deleniti facere non accusamus iusto est aut eum vel iure saepe.
+              Voluptatum doloremque repellendus mollitia veritatis minima magnam
+              officia, voluptates dolor nostrum accusantium totam. Cum, neque
+              fugiat. Ipsa tempore nobis vitae.
+            </p>
+            <b>@watch</b>
+            <hr />
+            <p>FEATURES</p>
+            <b>BLUETOOTH CONNECTIVITY</b>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+              recusandae.</small
+            >
+            <br />
+            <b>ULTRA RUGGED BUILD</b>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Delectus, corporis?</small
+            >
+            <br />
+            <b>LONG-LIFE BATTERY</b>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, pariatur.</small
+            >
+            <hr />
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="img-box-3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container banner p-0">
+      <div class="row m-0">
+        <div class="col-7 p-4 text-white">
+          <h3>CHRONOGRAPH</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eos
+            voluptatem, nostrum necessitatibus quos veritatis magnam minus
+            delectus facere aut dolorem eum fugit, alias non quam hic tempore
+            inventore ad optio reiciendis qui dolorum. Illo non minima assumenda
+            aliquam fuga.
+          </p>
+          <button class="btn btn-outline-light rounded-0">
+            LEARN MORE ABOUT
+          </button>
+        </div>
+        <div class="col-5">
+          <div class="bim"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer text-center">
+      Developed By <a href="https://github.com/ShivamMathtech">Shivam Singh</a>
     </div>
   </body>
 </html>
